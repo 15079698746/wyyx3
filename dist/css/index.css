@@ -4,13 +4,12 @@ html, body {
   height: 100%; }
 
 .wrap {
-  width: 1520px;
   background: #333333; }
   .wrap header {
+    width: 1090px;
     display: flex;
     height: 36px;
-    padding-left: 15%;
-    padding-right: 15%; }
+    margin: auto; }
     .wrap header span {
       width: 278px;
       font-size: 12px;
@@ -29,20 +28,21 @@ html, body {
         color: #ccc;
         font-size: 12px;
         border-right: 1px solid #eee;
-        padding-right: 10px;
+        padding-right: 15px;
         margin-right: 10px;
         cursor: pointer; }
         .wrap header ul li:hover {
           color: white; }
       .wrap header ul .lastli {
-        border-right: none; }
+        border-right: none;
+        padding-left: 4px;
+        margin-right: 0px; }
 
 /* logo */
 .logo {
-  width: 1520px;
-  background: #FFFFFF;
-  padding-left: 15%;
-  padding-right: 15%; }
+  width: 1090px;
+  margin: auto;
+  background: #FFFFFF; }
   .logo .tops {
     margin-top: 20px;
     display: flex;
@@ -79,7 +79,7 @@ html, body {
       border: 1px solid #CC9756;
       border-radius: 19px;
       padding: 8px 0;
-      margin-left: 40px; }
+      margin-left: 64px; }
       .logo .tops .shopcat span {
         text-align: center;
         color: #CC9756;
@@ -104,7 +104,6 @@ html, body {
 
 /*banner*/
 .banner {
-  width: 1520px;
   height: 420px;
   margin-bottom: 20px; }
 
@@ -116,14 +115,12 @@ html, body {
 
 /*goods*/
 .goods {
-  width: 1520px;
   background: #FFFFFF;
-  padding-left: 15%;
-  padding-right: 15%;
   position: relative; }
   .goods .commonHander {
     width: 1090px;
-    height: 48px; }
+    height: 48px;
+    margin: auto; }
     .goods .commonHander h3 {
       font-size: 28px;
       font-weight: 700;
@@ -145,7 +142,8 @@ html, body {
         color: #333333; }
   .goods .goodscon {
     width: 1100px;
-    height: 400px; }
+    height: 400px;
+    margin: auto; }
     .goods .goodscon .goodsBox {
       background: #FFFFFF;
       overflow: hidden; }
@@ -216,149 +214,146 @@ html, body {
 
 /* 福利社*/
 .welfareService {
-  width: 1520px;
-  background: #F4f0ea;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  position: relative; }
-  .welfareService .commonHander2 {
+  background: #F4f0ea; }
+  .welfareService .fuli {
     width: 1090px;
-    height: 48px; }
-    .welfareService .commonHander2 h3 {
-      font-size: 28px;
-      font-weight: 700;
-      line-height: 1;
-      float: left;
-      margin-right: 20px; }
-    .welfareService .commonHander2 i {
-      padding-top: 13px;
-      display: inline-block;
-      line-height: 1;
-      float: right; }
-      .welfareService .commonHander2 i a {
-        color: #333333; }
-  .welfareService .shopmian {
-    width: 1090px;
-    overflow: hidden;
-    background: #FFFFFF; }
-    .welfareService .shopmian img {
-      width: 224px;
-      height: 376px;
-      float: left;
-      background-color: #FFFFFF; }
-    .welfareService .shopmian .mianC {
-      width: 588px;
-      height: 376px;
-      float: left;
-      background-color: #FFFFFF;
-      padding-left: 30px;
-      border-right: 1px solid #F4F0EA; }
-      .welfareService .shopmian .mianC .mianCtitie {
-        width: 624px;
-        height: 56px;
-        padding-top: 22px;
-        border-bottom: 1px solid #F4F0EA; }
-        .welfareService .shopmian .mianC .mianCtitie h3 {
-          float: left;
-          display: inline; }
-        .welfareService .shopmian .mianC .mianCtitie a {
-          display: block;
-          padding-top: 8px;
-          color: #333;
-          font-size: 12px;
-          float: right; }
-      .welfareService .shopmian .mianC .goodscon {
-        width: 608px; }
-        .welfareService .shopmian .mianC .goodscon .goodsbox {
-          width: 284px;
-          height: 130px;
-          float: left; }
-          .welfareService .shopmian .mianC .goodscon .goodsbox img {
-            width: 130px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative; }
+    .welfareService .fuli .commonHander2 {
+      height: 48px; }
+      .welfareService .fuli .commonHander2 h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        float: left;
+        margin-right: 20px; }
+      .welfareService .fuli .commonHander2 i {
+        padding-top: 13px;
+        display: inline-block;
+        line-height: 1;
+        float: right; }
+        .welfareService .fuli .commonHander2 i a {
+          color: #333333; }
+    .welfareService .fuli .shopmian {
+      width: 1090px;
+      overflow: hidden;
+      background: #FFFFFF; }
+      .welfareService .fuli .shopmian img {
+        width: 224px;
+        height: 376px;
+        float: left;
+        background-color: #FFFFFF; }
+      .welfareService .fuli .shopmian .mianC {
+        width: 588px;
+        height: 376px;
+        float: left;
+        background-color: #FFFFFF;
+        padding-left: 30px;
+        border-right: 1px solid #F4F0EA; }
+        .welfareService .fuli .shopmian .mianC .mianCtitie {
+          width: 624px;
+          height: 56px;
+          padding-top: 22px;
+          border-bottom: 1px solid #F4F0EA; }
+          .welfareService .fuli .shopmian .mianC .mianCtitie h3 {
+            float: left;
+            display: inline; }
+          .welfareService .fuli .shopmian .mianC .mianCtitie a {
+            display: block;
+            padding-top: 8px;
+            color: #333;
+            font-size: 12px;
+            float: right; }
+        .welfareService .fuli .shopmian .mianC .goodscon {
+          width: 608px; }
+          .welfareService .fuli .shopmian .mianC .goodscon .goodsbox {
+            width: 284px;
             height: 130px;
             float: left; }
-          .welfareService .shopmian .mianC .goodscon .goodsbox .des {
-            width: 130px;
-            float: left; }
-            .welfareService .shopmian .mianC .goodscon .goodsbox .des h3 {
+            .welfareService .fuli .shopmian .mianC .goodscon .goodsbox img {
               width: 130px;
-              font-size: 14px;
-              line-height: 20px;
-              margin-bottom: 5px; }
-            .welfareService .shopmian .mianC .goodscon .goodsbox .des p {
+              height: 130px;
+              float: left; }
+            .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des {
               width: 130px;
-              font-size: 14px;
-              color: #be4141; }
-            .welfareService .shopmian .mianC .goodscon .goodsbox .des .price {
-              width: 130px;
-              height: 16px; }
-            .welfareService .shopmian .mianC .goodscon .goodsbox .des a {
-              width: 90px;
-              height: 28px;
-              line-height: 28px;
-              background: #be4141;
-              font-size: 12px;
-              color: #ffffff;
-              display: block;
-              text-align: center;
-              border-radius: 1px; }
-    .welfareService .shopmian .mianR {
-      float: left;
-      width: 242px;
-      height: 376px;
-      background-color: #ffffff;
-      padding-left: 21px;
-      padding-right: 21px; }
-      .welfareService .shopmian .mianR .mianRbox .mianRbox1 {
-        padding-top: 10px;
-        margin-bottom: 30px; }
-        .welfareService .shopmian .mianR .mianRbox .mianRbox1 h2 {
-          float: left; }
-        .welfareService .shopmian .mianR .mianRbox .mianRbox1 span {
-          float: right;
-          padding-top: 5px; }
-          .welfareService .shopmian .mianR .mianRbox .mianRbox1 span a {
-            font-size: 12px;
-            color: #333333; }
-      .welfareService .shopmian .mianR .mianRbox .mianRbox2 .box {
+              float: left; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des h3 {
+                width: 130px;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 5px; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des p {
+                width: 130px;
+                font-size: 14px;
+                color: #be4141; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des .price {
+                width: 130px;
+                height: 16px; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des a {
+                width: 90px;
+                height: 28px;
+                line-height: 28px;
+                background: #be4141;
+                font-size: 12px;
+                color: #ffffff;
+                display: block;
+                text-align: center;
+                border-radius: 1px; }
+      .welfareService .fuli .shopmian .mianR {
         float: left;
-        width: 130px;
-        height: 49px;
-        margin-left: 5px;
-        margin-bottom: 20px; }
-        .welfareService .shopmian .mianR .mianRbox .mianRbox2 .box img {
-          display: block;
-          width: 50px;
-          height: 50px;
-          float: left; }
-        .welfareService .shopmian .mianR .mianRbox .mianRbox2 .box h4 {
-          width: 230px;
-          height: 19px;
-          font-size: 14px;
-          color: #333333;
-          text-overflow: ellipsis;
-          margin-bottom: 10px; }
-        .welfareService .shopmian .mianR .mianRbox .mianRbox2 .box div {
-          width: 150px; }
-          .welfareService .shopmian .mianR .mianRbox .mianRbox2 .box div p {
-            font-size: 14px;
-            color: #be4141;
+        width: 242px;
+        height: 376px;
+        background-color: #ffffff;
+        padding-left: 21px;
+        padding-right: 21px; }
+        .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 {
+          padding-top: 10px;
+          margin-bottom: 30px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 h2 {
             float: left; }
-          .welfareService .shopmian .mianR .mianRbox .mianRbox2 .box div span {
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 span {
+            float: right;
+            padding-top: 5px; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 span a {
+              font-size: 12px;
+              color: #333333; }
+        .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box {
+          float: left;
+          width: 130px;
+          height: 49px;
+          margin-left: 5px;
+          margin-bottom: 20px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box img {
+            display: block;
+            width: 50px;
+            height: 50px;
+            float: left; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box h4 {
+            width: 230px;
+            height: 19px;
             font-size: 14px;
-            color: #ccc;
-            float: right; }
+            color: #333333;
+            text-overflow: ellipsis;
+            margin-bottom: 10px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div {
+            width: 150px; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div p {
+              font-size: 14px;
+              color: #be4141;
+              float: left; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div span {
+              font-size: 14px;
+              color: #ccc;
+              float: right; }
 
 /* 居家生活*/
 .live {
-  width: 1520px;
+  width: 1090px;
   background: #FFFFFF;
   padding-top: 50px;
-  padding-left: 50px;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin: auto;
   position: relative; }
   .live .liveT {
     width: 1090px;
@@ -428,3 +423,560 @@ html, body {
         .live .goodscon .goodsBox div h4 {
           font-size: 13px;
           color: #d4282d; }
+
+/*服饰鞋包*/
+.shoebag {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .shoebag .liveT {
+    width: 1090px;
+    height: 48px; }
+    .shoebag .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .shoebag .liveT ul {
+      padding-top: 15px; }
+      .shoebag .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .shoebag .liveT ul li:hover {
+          color: #bbb; }
+      .shoebag .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .shoebag .liveT ul p {
+        padding-left: 10px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .shoebag .liveT ul p:hover {
+          color: #bbb; }
+  .shoebag .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .shoebag .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .shoebag .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .shoebag .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .shoebag .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .shoebag .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .shoebag .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .shoebag .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*美食酒水*/
+.food {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .food .liveT {
+    width: 1090px;
+    height: 48px; }
+    .food .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .food .liveT ul {
+      padding-top: 15px; }
+      .food .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .food .liveT ul li:hover {
+          color: #bbb; }
+      .food .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .food .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .food .liveT ul p:hover {
+          color: #bbb; }
+  .food .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .food .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .food .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .food .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .food .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .food .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .food .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .food .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*个护清洁*/
+.clean {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .clean .liveT {
+    width: 1090px;
+    height: 48px; }
+    .clean .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .clean .liveT ul {
+      padding-top: 15px; }
+      .clean .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .clean .liveT ul li:hover {
+          color: #bbb; }
+      .clean .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .clean .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .clean .liveT ul p:hover {
+          color: #bbb; }
+  .clean .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .clean .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .clean .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .clean .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .clean .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .clean .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .clean .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .clean .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*母婴亲子*/
+.baby {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .baby .liveT {
+    width: 1090px;
+    height: 48px; }
+    .baby .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .baby .liveT ul {
+      padding-top: 15px; }
+      .baby .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .baby .liveT ul li:hover {
+          color: #bbb; }
+      .baby .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .baby .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .baby .liveT ul p:hover {
+          color: #bbb; }
+  .baby .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .baby .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .baby .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .baby .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .baby .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .baby .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .baby .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .baby .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*运动旅行*/
+.travel {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .travel .liveT {
+    width: 1090px;
+    height: 48px; }
+    .travel .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 217px; }
+    .travel .liveT ul {
+      padding-top: 15px; }
+      .travel .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .travel .liveT ul li:hover {
+          color: #bbb; }
+      .travel .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .travel .liveT ul p {
+        padding-left: 9px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .travel .liveT ul p:hover {
+          color: #bbb; }
+  .travel .banner2 {
+    margin-bottom: 20px; }
+    .travel .banner2 .swiper-slide swiper-wrapper img {
+      display: block;
+      width: 1090px;
+      height: 310px; }
+  .travel .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .travel .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .travel .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .travel .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .travel .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .travel .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .travel .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*数码家电*/
+.numbercode {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .numbercode .liveT {
+    width: 1090px;
+    height: 48px; }
+    .numbercode .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .numbercode .liveT ul {
+      padding-top: 15px; }
+      .numbercode .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .numbercode .liveT ul li:hover {
+          color: #bbb; }
+      .numbercode .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .numbercode .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .numbercode .liveT ul p:hover {
+          color: #bbb; }
+  .numbercode .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .numbercode .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .numbercode .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .numbercode .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .numbercode .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .numbercode .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .numbercode .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .numbercode .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*严选全球*/
+.global {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative; }
+  .global .liveT {
+    width: 1090px;
+    height: 48px; }
+    .global .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .global .liveT ul {
+      padding-top: 15px; }
+      .global .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .global .liveT ul li:hover {
+          color: #bbb; }
+      .global .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .global .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .global .liveT ul p:hover {
+          color: #bbb; }
+  .global .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .global .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .global .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .global .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .global .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .global .goodscon .goodsBox div span {
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844; }
+        .global .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .global .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
+
+/*甄选家*/
+.home {
+  width: 1090px;
+  background: #FFFFFF;
+  padding-top: 50px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 70px; }
+  .home .hometitie {
+    width: 1090px;
+    height: 48px; }
+    .home .hometitie h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 20px; }
+    .home .hometitie p {
+      padding-top: 15px;
+      font-size: 14px;
+      float: left; }
+  .home .homebox {
+    height: 380px;
+    padding-bottom: 50px; }
+    .home .homebox .imgL {
+      float: left; }
+      .home .homebox .imgL img {
+        width: 690px;
+        height: 380px;
+        display: block; }
+    .home .homebox .imgR {
+      float: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 380px; }
+      .home .homebox .imgR img {
+        width: 390px;
+        height: 185px;
+        display: block; }
