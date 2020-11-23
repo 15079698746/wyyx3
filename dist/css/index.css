@@ -3,14 +3,15 @@ html, body {
   width: 100%;
   height: 100%; }
 
-.wrap {
+/*头部*/
+.head {
   background: #333333; }
-  .wrap header {
+  .head header {
     width: 1090px;
     display: flex;
     height: 36px;
     margin: auto; }
-    .wrap header span {
+    .head header span {
       width: 278px;
       font-size: 12px;
       color: #CC9756;
@@ -18,12 +19,12 @@ html, body {
       border-bottom: 1px solid #CC9756;
       display: inline;
       cursor: pointer; }
-      .wrap header span:hover {
+      .head header span:hover {
         color: white; }
-    .wrap header ul {
+    .head header ul {
       margin: auto;
       margin-left: 30%; }
-      .wrap header ul li {
+      .head header ul li {
         float: left;
         color: #ccc;
         font-size: 12px;
@@ -31,9 +32,9 @@ html, body {
         padding-right: 15px;
         margin-right: 10px;
         cursor: pointer; }
-        .wrap header ul li:hover {
+        .head header ul li:hover {
           color: white; }
-      .wrap header ul .lastli {
+      .head header ul .lastli {
         border-right: none;
         padding-left: 4px;
         margin-right: 0px; }
@@ -131,13 +132,11 @@ html, body {
       margin-right: 20px; }
     .goods .commonHander span {
       padding-top: 13px;
-      display: inline-block;
       line-height: 1;
       font-size: 14px;
       float: left; }
     .goods .commonHander i {
       padding-top: 13px;
-      display: inline-block;
       line-height: 1;
       float: right; }
       .goods .commonHander i a {
@@ -159,11 +158,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .goods .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .goods .goodscon .goodsBox div p {
           width: 160px;
@@ -192,7 +190,7 @@ html, body {
       color: #333333;
       cursor: pointer; }
       .goods .boxLeft li h3 {
-        margin: 4px;
+        margin: 4px 4px 0px 4px;
         font-size: 12px; }
       .goods .boxLeft li .firstH3 {
         color: #BB3343;
@@ -255,7 +253,6 @@ html, body {
         margin-right: 20px; }
       .welfareService .fuli .commonHander2 i {
         padding-top: 13px;
-        display: inline-block;
         line-height: 1;
         float: right; }
         .welfareService .fuli .commonHander2 i a {
@@ -371,6 +368,17 @@ html, body {
               font-size: 14px;
               color: #ccc;
               float: right; }
+        .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 {
+          padding-top: 10px;
+          margin-bottom: 30px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 h2 {
+            float: left; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 span {
+            float: right;
+            padding-top: 5px; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 span a {
+              font-size: 12px;
+              color: #333333; }
 
 /* 居家生活*/
 .live {
@@ -431,11 +439,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .live .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .live .goodscon .goodsBox div p {
           width: 160px;
@@ -504,11 +511,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .shoebag .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .shoebag .goodscon .goodsBox div p {
           width: 160px;
@@ -577,11 +583,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .food .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .food .goodscon .goodsBox div p {
           width: 160px;
@@ -650,11 +655,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .clean .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .clean .goodscon .goodsBox div p {
           width: 160px;
@@ -723,11 +727,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .baby .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .baby .goodscon .goodsBox div p {
           width: 160px;
@@ -799,11 +802,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .travel .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .travel .goodscon .goodsBox div p {
           width: 160px;
@@ -872,11 +874,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .numbercode .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .numbercode .goodscon .goodsBox div p {
           width: 160px;
@@ -945,11 +946,10 @@ html, body {
           width: 265px;
           height: 265px; }
         .global .goodscon .goodsBox div span {
-          width: 70px;
+          width: 1px;
           height: 20px;
           line-height: 20px;
           color: #fff !important;
-          padding: 0 5px;
           background-color: #e36844; }
         .global .goodscon .goodsBox div p {
           width: 160px;
