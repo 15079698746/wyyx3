@@ -1,6 +1,6 @@
 "use strict";
 
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('.banner4', {
   direction: 'horizontal',
   // 水平切换选项
   loop: true,

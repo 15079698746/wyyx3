@@ -213,6 +213,28 @@ html, body {
       font-weight: 700;
       cursor: pointer;
       padding: 0; }
+  .goods .boxRight {
+    width: 72px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center; }
+    .goods .boxRight img {
+      width: 70px;
+      height: 70px;
+      display: block; }
+    .goods .boxRight li {
+      line-height: 17px;
+      color: #BC3B3B;
+      font-size: 12px;
+      text-align: center;
+      cursor: pointer; }
+    .goods .boxRight .firstLi {
+      font-size: 12px;
+      text-align: center;
+      line-height: 17px;
+      cursor: pointer;
+      color: #666; }
 
 /* 福利社*/
 .welfareService {
@@ -1009,3 +1031,175 @@ html, body {
       .everyonewrap .everyone .banner4 .swiper-slide swiper-wrapper img {
         width: 355px;
         height: 355px; }
+
+/*客服服务*/
+.serve {
+  width: 1090px;
+  height: 300px;
+  padding-top: 50px;
+  margin: auto;
+  padding-bottom: 50px; }
+  .serve .serveL {
+    width: 363.33px;
+    height: 204px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    .serve .serveL h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1;
+      color: #333333; }
+    .serve .serveL .box {
+      text-align: center;
+      display: flex;
+      justify-content: center; }
+      .serve .serveL .box .boxL {
+        width: 80px;
+        height: 100px;
+        line-height: 80px;
+        border: 1px solid #ccc;
+        text-align: center;
+        float: left;
+        margin-right: 30px; }
+      .serve .serveL .box .boxR {
+        width: 80px;
+        height: 100px;
+        line-height: 80px;
+        float: left;
+        border: 1px solid #ccc;
+        text-align: center; }
+  .serve .serveC {
+    width: 363.33px;
+    height: 204px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    .serve .serveC h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1;
+      color: #333333; }
+    .serve .serveC p {
+      margin: auto;
+      width: 288.33px;
+      height: 67px;
+      margin-bottom: 35px;
+      text-overflow: unset; }
+    .serve .serveC .attention {
+      width: 288px;
+      height: 42px;
+      margin: auto;
+      padding-right: 50px; }
+      .serve .serveC .attention span {
+        width: 63.5px;
+        height: 32px;
+        color: #333333;
+        margin-right: 30px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 32px;
+        display: block;
+        float: left;
+        text-align: left; }
+      .serve .serveC .attention img {
+        width: 40px;
+        height: 40px;
+        display: block;
+        float: right;
+        margin-right: 8px; }
+  .serve .serveR {
+    width: 363.33px;
+    height: 204px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    .serve .serveR h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1;
+      color: #333333; }
+    .serve .serveR img {
+      width: 104px;
+      height: 104px;
+      display: block;
+      margin: auto; }
+    .serve .serveR p {
+      color: #b4a078;
+      font-size: 12px;
+      margin-top: 3px; }
+
+/*foot*/
+.foot {
+  background: #414141; }
+  .foot .footmian {
+    width: 1090px;
+    margin: auto;
+    padding-top: 30px; }
+    .foot .footmian img {
+      display: block;
+      width: 1090px;
+      height: 50px;
+      margin-bottom: 30px; }
+    .foot .footmian .footcon .footcon-t1 {
+      border-top: 1px solid #eee;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center; }
+      .foot .footmian .footcon .footcon-t1 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 8px; }
+        .foot .footmian .footcon .footcon-t1 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t1 span {
+        color: #999999; }
+    .foot .footmian .footcon .footcon-t2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      .foot .footmian .footcon .footcon-t2 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 3px; }
+        .foot .footmian .footcon .footcon-t2 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t2 span {
+        font-size: 12px;
+        color: #999999; }
+    .foot .footmian .footcon .footcon-t3 {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      .foot .footmian .footcon .footcon-t3 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 3px; }
+        .foot .footmian .footcon .footcon-t3 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t3 span {
+        font-size: 12px;
+        color: #999999; }
+    .foot .footmian .footcon .footcon-t4 {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px; }
+      .foot .footmian .footcon .footcon-t4 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 3px;
+        padding-top: 5px; }
+        .foot .footmian .footcon .footcon-t4 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t4 span {
+        font-size: 12px;
+        color: #999999;
+        padding-top: 5px; }
+      .foot .footmian .footcon .footcon-t4 img {
+        width: 23px;
+        height: 25px;
+        margin-left: 8px;
+        cursor: pointer; }
