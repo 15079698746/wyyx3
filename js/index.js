@@ -1,4 +1,4 @@
-// banner操作
+//1. banner操作
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal', // 水平切换选项
     loop: true, // 循环模式选项
@@ -30,7 +30,7 @@
   mySwiper.pagination.destroy()
   mySwiper.pagination.init()
   mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active');  
-  //吸顶效果
+  //2.吸顶效果
   window.addEventListener("scroll",()=>{  
     let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;    
     let offsetTop = document.querySelector('.boxLeft').offsetTop;  

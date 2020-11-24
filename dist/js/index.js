@@ -1,6 +1,6 @@
 "use strict";
 
-// banner操作
+//1. banner操作
 var mySwiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
   // 水平切换选项
@@ -31,7 +31,7 @@ mySwiper.params.pagination.clickable = true; // //此外还需要重新初始化
 
 mySwiper.pagination.destroy();
 mySwiper.pagination.init();
-mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active'); //吸顶效果
+mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active'); //2.吸顶效果
 
 window.addEventListener("scroll", function () {
   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;

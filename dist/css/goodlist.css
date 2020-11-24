@@ -26,7 +26,8 @@
         padding: 0 10px; }
         .goodsList .content .goodsbox .goods img {
           width: 245px;
-          height: 245px; }
+          height: 245px;
+          cursor: pointer; }
         .goodsList .content .goodsbox .goods h3 {
           width: 156px;
           margin: auto;
