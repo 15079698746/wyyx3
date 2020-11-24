@@ -119,63 +119,9 @@ html, body {
 .goods {
   background: #FFFFFF;
   position: relative; }
-  .goods .commonHander {
-    width: 1090px;
-    height: 48px;
-    margin: auto;
-    margin-top: 30px; }
-    .goods .commonHander h3 {
-      font-size: 28px;
-      font-weight: 700;
-      line-height: 1;
-      float: left;
-      margin-right: 20px; }
-    .goods .commonHander span {
-      padding-top: 13px;
-      line-height: 1;
-      font-size: 14px;
-      float: left; }
-    .goods .commonHander i {
-      padding-top: 13px;
-      line-height: 1;
-      float: right; }
-      .goods .commonHander i a {
-        color: #333333; }
-  .goods .goodscon {
-    width: 1100px;
-    height: 400px;
-    margin: auto; }
-    .goods .goodscon .goodsBox {
-      background: #FFFFFF;
-      overflow: hidden; }
-      .goods .goodscon .goodsBox div {
-        width: 265px;
-        float: left;
-        background: #F4F4F4;
-        margin-right: 10px;
-        text-align: center; }
-        .goods .goodscon .goodsBox div img {
-          width: 265px;
-          height: 265px; }
-        .goods .goodscon .goodsBox div span {
-          width: 1px;
-          height: 20px;
-          line-height: 20px;
-          color: #fff !important;
-          background-color: #e36844; }
-        .goods .goodscon .goodsBox div p {
-          width: 160px;
-          font-size: 13px;
-          color: #333333;
-          font-weight: bolder;
-          text-align: center;
-          margin: auto; }
-        .goods .goodscon .goodsBox div h4 {
-          font-size: 13px;
-          color: #d4282d; }
   .goods .boxLeft {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 5%;
     width: 110px;
     height: 364px;
@@ -233,6 +179,60 @@ html, body {
       line-height: 17px;
       cursor: pointer;
       color: #666; }
+  .goods .commonHander {
+    width: 1090px;
+    height: 48px;
+    margin: auto;
+    margin-top: 30px; }
+    .goods .commonHander h3 {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1;
+      float: left;
+      margin-right: 20px; }
+    .goods .commonHander span {
+      padding-top: 13px;
+      line-height: 1;
+      font-size: 14px;
+      float: left; }
+    .goods .commonHander i {
+      padding-top: 13px;
+      line-height: 1;
+      float: right; }
+      .goods .commonHander i a {
+        color: #333333; }
+  .goods .goodscon {
+    width: 1100px;
+    height: 400px;
+    margin: auto; }
+    .goods .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .goods .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .goods .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .goods .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .goods .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .goods .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /* 福利社*/
 .welfareService {

@@ -8,10 +8,10 @@ $(function () {
     success: function success(json) {
       var goodsStr = "";
       $.each(json, function (index, item) {
-        console.log();
-        goodsStr += "<div class=\"goods\">\n                <img src=\"".concat(item.imgurl, "\" alt=\"\">\n                <p>").concat(item.price, "</p>\n                <h3>").concat(item.title, "</h3>\n                <div>").concat(item.say, "</div> \n            </div>");
+        console.log(item);
+        goodsStr += "<div class=\"goods\">\n                <img src=\"".concat(item.imgurl, "\" alt=\"\">\n                <h3>").concat(item.title, "</h3>\n                <p>").concat(item.price, "</p>\n                <div>").concat(item.say, "</div> \n            </div>");
       });
-      $(".goodsbox").html(goodsStr); //把点击添加的内容放入在content中
+      $(".goodsbox").html(goodsStr); //把点击添加的内容放入在goodsbox中
     }
   });
 });

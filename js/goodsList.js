@@ -6,16 +6,16 @@ $(function(){
         success:function(json){
             var goodsStr=""
             $.each(json,function(index,item){
-                console.log()
+                console.log(item)
                 goodsStr+=`<div class="goods">
                 <img src="${item.imgurl}" alt="">
-                <p>${item.price}</p>
                 <h3>${item.title}</h3>
+                <p>${item.price}</p>
                 <div>${item.say}</div> 
             </div>`
             })
 
-            $(".goodsbox").html(goodsStr) //把点击添加的内容放入在content中
+            $(".goodsbox").html(goodsStr) //把点击添加的内容放入在goodsbox中
         }
     })
 })
