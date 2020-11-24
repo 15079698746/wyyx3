@@ -33,7 +33,8 @@
   //2.吸顶效果
   window.addEventListener("scroll",()=>{  
     let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;    
-    let offsetTop = document.querySelector('.boxLeft').offsetTop;  
+    let offsetTop = document.querySelector('.boxLeft').offsetTop;
+    console.log(offsetTop);  
     // let offsetTop = document.querySelector('.boxRight').offsetTop;  
     if (scrollTop > 630) {  
          document.querySelector('.boxLeft').style.position="fixed";  

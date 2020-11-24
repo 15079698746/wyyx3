@@ -23,7 +23,10 @@
       padding: 0 10px; }
       .goodsList .content .goodsbox .goods {
         float: left;
-        padding: 0 10px; }
+        margin: 0 10px;
+        border: 1px solid #ffffff; }
+        .goodsList .content .goodsbox .goods:hover {
+          border: 1px solid #d4282d; }
         .goodsList .content .goodsbox .goods img {
           width: 245px;
           height: 245px;

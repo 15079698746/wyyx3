@@ -118,7 +118,8 @@ html, body {
 /*新品首发*/
 .goods {
   background: #FFFFFF;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .goods .boxLeft {
     position: absolute;
     top: 0px;

@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/*商品详情*/
+.detail {
+  width: 1090px;
+  margin: auto;
+  overflow: hidden; }
+  .detail h3 {
+    font-size: 12px;
+    color: #333333;
+    padding: 20px 0;
+    line-height: 12px; }
+  .detail .detailcon {
+    width: 1090px;
+    overflow: hidden; }
+    .detail .detailcon .maxbox {
+      display: none; }
+    .detail .detailcon .detailL {
+      width: 428px;
+      float: left; }
+      .detail .detailcon .detailL .minbox {
+        width: 428px;
+        height: 428px; }
+        .detail .detailcon .detailL .minbox img {
+          width: 428px;
+          height: 428px;
+          display: block; }
+        .detail .detailcon .detailL .minbox .mask {
+          width: 214px;
+          height: 214px;
+          background-color: orange;
+          opacity: 0.4;
+          position: absolute;
+          left: 0;
+          top: 0;
+          cursor: move;
+          display: none; }
+      .detail .detailcon .detailL ul {
+        width: 430px;
+        margin-top: 14px;
+        height: 76px;
+        display: flex;
+        justify-content: space-between; }
+        .detail .detailcon .detailL ul img {
+          width: 76px;
+          height: 76px;
+          display: block;
+          border: 2px solid #eee;
+          cursor: pointer; }
+          .detail .detailcon .detailL ul img:hover {
+            border: 2px solid #FFFACD; }
+          .detail .detailcon .detailL ul img:nth-child(5) {
+            background-color: #f4f4f4; }
+      .detail .detailcon .detailL p {
+        width: 131px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 14px;
+        color: #b4a078;
+        background: #ccc;
+        cursor: pointer;
+        margin-top: 14px;
+        text-align: center; }
+    .detail .detailcon .detailR {
+      width: 620px;
+      float: right; }
+      .detail .detailcon .detailR .detailRtitle1 {
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px; }
+        .detail .detailcon .detailR .detailRtitle1 div {
+          font-size: 20px;
+          height: 20px;
+          color: #333;
+          font-weight: 500; }
+        .detail .detailcon .detailR .detailRtitle1 span {
+          font-size: 20px;
+          color: #e36844;
+          font-weight: 800; }
+      .detail .detailcon .detailR .detailRtitle2 {
+        height: 20px;
+        display: flex;
+        justify-content: space-between; }
+        .detail .detailcon .detailR .detailRtitle2 div {
+          font-size: 14px;
+          height: 20px;
+          color: #999999;
+          margin-top: 5px; }
+        .detail .detailcon .detailR .detailRtitle2 span {
+          font-size: 13px;
+          color: #333333;
+          margin-top: 5px; }
+      .detail .detailcon .detailR .detailRcon {
+        margin-top: 30px; }
+        .detail .detailcon .detailR .detailRcon img {
+          width: 620px;
+          height: 260px;
+          display: block; }
+        .detail .detailcon .detailR .detailRcon .size {
+          margin-top: 30px;
+          padding: 0 0 0 5px; }
+          .detail .detailcon .detailR .detailRcon .size span {
+            width: 54px;
+            height: 30px;
+            font-size: 12px;
+            color: #666666;
+            float: left; }
+          .detail .detailcon .detailR .detailRcon .size ul {
+            padding-left: 20px; }
+            .detail .detailcon .detailR .detailRcon .size ul a {
+              height: 28px;
+              font-size: 12px;
+              color: #333333;
+              padding: 5px 16px;
+              border: 1px solid #eee; }
+        .detail .detailcon .detailR .detailRcon .color {
+          overflow: hidden;
+          margin-top: 30px;
+          padding: 0 0 0 5px;
+          width: 620px; }
+          .detail .detailcon .detailR .detailRcon .color span {
+            width: 54px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            color: #666666;
+            float: left; }
+          .detail .detailcon .detailR .detailRcon .color img {
+            width: 48px;
+            height: 48px;
+            display: block;
+            float: left;
+            border: 1px solid #ccc;
+            cursor: pointer; }
+        .detail .detailcon .detailR .detailRcon .num {
+          margin-top: 30px;
+          padding: 0 0 0 5px; }
+          .detail .detailcon .detailR .detailRcon .num .name {
+            width: 54px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            color: #666666;
+            float: left; }
+          .detail .detailcon .detailR .detailRcon .num span {
+            width: 36px;
+            height: 30px;
+            border: 1px solid #ccc;
+            display: block;
+            float: left;
+            text-align: center;
+            cursor: pointer; }
+          .detail .detailcon .detailR .detailRcon .num input {
+            width: 60px;
+            height: 30px;
+            display: block;
+            float: left;
+            text-align: center; }
+          .detail .detailcon .detailR .detailRcon .num i {
+            width: 36px;
+            height: 30px;
+            border: 1px solid #ccc;
+            display: block;
+            float: left;
+            text-align: center;
+            cursor: pointer; }

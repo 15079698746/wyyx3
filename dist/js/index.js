@@ -35,7 +35,8 @@ mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active'); /
 
 window.addEventListener("scroll", function () {
   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  var offsetTop = document.querySelector('.boxLeft').offsetTop; // let offsetTop = document.querySelector('.boxRight').offsetTop;  
+  var offsetTop = document.querySelector('.boxLeft').offsetTop;
+  console.log(offsetTop); // let offsetTop = document.querySelector('.boxRight').offsetTop;  
 
   if (scrollTop > 630) {
     document.querySelector('.boxLeft').style.position = "fixed";
