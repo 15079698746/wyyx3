@@ -52,4 +52,19 @@
           padding: 0 10px;
           text-align: center;
           padding-top: 20px;
-          margin-bottom: 50px; }
+          margin-bottom: 30px; }
+        .goodsList .content .goodsbox .goods a {
+          width: 120px;
+          height: 30px;
+          font-size: 18px;
+          line-height: 30px;
+          color: #f5f3ef;
+          background: #b4a078;
+          border: 1px solid #ccc;
+          display: block;
+          margin: auto;
+          text-align: center;
+          margin-bottom: 30px;
+          cursor: pointer; }
+          .goodsList .content .goodsbox .goods a:hover {
+            background: #b4a050; }

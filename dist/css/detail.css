@@ -11,15 +11,32 @@
     line-height: 12px; }
   .detail .detailcon {
     width: 1090px;
-    overflow: hidden; }
+    overflow: hidden;
+    position: relative; }
     .detail .detailcon .maxbox {
+      width: 400px;
+      height: 400px;
+      border: 1px solid green;
+      position: absolute;
+      top: 0px;
+      left: 428px;
+      overflow: hidden;
       display: none; }
+      .detail .detailcon .maxbox img {
+        width: 800px;
+        height: 800px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0; }
     .detail .detailcon .detailL {
       width: 428px;
-      float: left; }
+      float: left;
+      position: relative; }
       .detail .detailcon .detailL .minbox {
-        width: 428px;
-        height: 428px; }
+        width: 430px;
+        height: 430px;
+        position: relative; }
         .detail .detailcon .detailL .minbox img {
           width: 428px;
           height: 428px;
@@ -32,6 +49,7 @@
           position: absolute;
           left: 0;
           top: 0;
+          z-index: 10;
           cursor: move;
           display: none; }
       .detail .detailcon .detailL ul {
@@ -45,9 +63,10 @@
           height: 76px;
           display: block;
           border: 2px solid #eee;
-          cursor: pointer; }
-          .detail .detailcon .detailL ul img:hover {
-            border: 2px solid #FFFACD; }
+          cursor: pointer;
+          /*   &:hover{
+                        border: 2px solid #FFFACD;
+                    } */ }
           .detail .detailcon .detailL ul img:nth-child(5) {
             background-color: #f4f4f4; }
       .detail .detailcon .detailL p {
@@ -133,6 +152,7 @@
             border: 1px solid #ccc;
             cursor: pointer; }
         .detail .detailcon .detailR .detailRcon .num {
+          overflow: hidden;
           margin-top: 30px;
           padding: 0 0 0 5px; }
           .detail .detailcon .detailR .detailRcon .num .name {
@@ -164,3 +184,34 @@
             float: left;
             text-align: center;
             cursor: pointer; }
+        .detail .detailcon .detailR .detailRcon .btns {
+          margin-top: 30px;
+          padding: 0 0 0 5px; }
+          .detail .detailcon .detailR .detailRcon .btns span {
+            width: 168px;
+            height: 50px;
+            font-size: 18px;
+            line-height: 50px;
+            color: #b4a078;
+            margin: 0 10px 0 0;
+            background: #f5f3ef;
+            border: 1px solid #ccc;
+            display: block;
+            float: left;
+            text-align: center;
+            cursor: pointer; }
+            .detail .detailcon .detailR .detailRcon .btns span:hover {
+              background: #FFFFFF; }
+          .detail .detailcon .detailR .detailRcon .btns a {
+            width: 168px;
+            height: 50px;
+            font-size: 18px;
+            line-height: 50px;
+            color: #f5f3ef;
+            background: #b4a078;
+            border: 1px solid #ccc;
+            display: block;
+            float: left;
+            text-align: center; }
+            .detail .detailcon .detailR .detailRcon .btns a:hover {
+              background: #b4a050; }

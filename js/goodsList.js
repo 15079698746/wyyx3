@@ -11,7 +11,8 @@ $(function(){
                 <img src="${item.imgurl}" alt="">
                 <h3>${item.title}</h3>
                 <p>${item.price}</p>
-                <div>${item.say}</div> 
+                <div>${item.say}</div>
+                <a code="${item.code}">加入购物车</a> 
             </div>`
             })
             $(".goodsbox").html(goodsStr) //把点击添加的内容放入在goodsbox中

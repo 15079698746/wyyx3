@@ -30,6 +30,8 @@
   mySwiper.pagination.destroy()
   mySwiper.pagination.init()
   mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active');  
+
+  
   //2.吸顶效果
   window.addEventListener("scroll",()=>{  
     let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;    

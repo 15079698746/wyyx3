@@ -9,7 +9,7 @@ $(function () {
       var goodsStr = "";
       $.each(json, function (index, item) {
         // console.log(item)
-        goodsStr += "<div class=\"goods\">\n                <img src=\"".concat(item.imgurl, "\" alt=\"\">\n                <h3>").concat(item.title, "</h3>\n                <p>").concat(item.price, "</p>\n                <div>").concat(item.say, "</div> \n            </div>");
+        goodsStr += "<div class=\"goods\">\n                <img src=\"".concat(item.imgurl, "\" alt=\"\">\n                <h3>").concat(item.title, "</h3>\n                <p>").concat(item.price, "</p>\n                <div>").concat(item.say, "</div>\n                <a code=\"").concat(item.code, "\">\u52A0\u5165\u8D2D\u7269\u8F66</a> \n            </div>");
       });
       $(".goodsbox").html(goodsStr); //把点击添加的内容放入在goodsbox中
       // var $img=$('.goods img')
