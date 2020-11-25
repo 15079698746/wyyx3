@@ -44,7 +44,8 @@
       padding: 10px;
       height: 120px;
       border: 1px solid #ccc;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      overflow: hidden; }
       .goodsCat .catC li div {
         float: left;
         padding-top: 44px; }
@@ -63,7 +64,7 @@
         padding-top: 32px; }
         .goodsCat .catC li .box h3 {
           font-size: 14px;
-          max-width: 248px;
+          width: 248px;
           color: #333333;
           float: left;
           margin-right: 158px; }

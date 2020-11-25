@@ -4,6 +4,7 @@ $(function(){
         url:"data/goods.json",
         type:"get",
         dataType:"json",
+        // async:false,
         success:function(json){
             var goodsStr=""
             $.each(json,function(index,item){
@@ -16,24 +17,22 @@ $(function(){
                 <span code="${item.code}">加入购物车</span> 
             </div>`
             })
-            $(".goodsbox").html(goodsStr) //把点击添加的内容放入在goodsbox中
-
+            $(".goodsbox").html(goodsStr) //把内容放入在goodsbox中
             // var $img=$('.goods img')
             // console.log($img.get(0));
             // 点击图片跳转到详情页面
             $('.goods img').on('click',()=>{
                window.open('detail.html')
             })
-            console.log($('.goodsbox span')[0]);
-            $('.goodsbox').on('click','goods span',function(){
-                console.log(1111);
-            })
+            // console.log($('.goodsbox span')[0]);
         }
     })
-    // console.log($('.goodsbox .goods')[0]);
-   //点击加入购物车
-   $('.goodsbox').on('click','.goodsbox span',function(){
     
+   //点击加入购物车
+   console.log($('.goodsbox')[0]);
+   console.log($('.goodsbox span')[0]);
+   $('.goodsbox').on('click','span',function(){
+        // console.log(111);
       //获取当前商品的编号
        var code=$(this).attr('code')
       //判断本地储存是否有数据
