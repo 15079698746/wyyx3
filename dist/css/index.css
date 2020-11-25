@@ -122,6 +122,7 @@ html, body {
   overflow: hidden; }
   .goods .boxLeft {
     position: absolute;
+    background-color: #ffffff;
     top: 0px;
     left: 5%;
     width: 110px;

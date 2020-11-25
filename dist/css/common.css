@@ -85,7 +85,8 @@
   .logo .buttoms {
     width: 1090px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 30px; }
     .logo .buttoms li {
       color: #000;
       cursor: pointer;
@@ -95,10 +96,12 @@
       .logo .buttoms li:hover {
         border-bottom: 3px solid #CC9756;
         color: #CC9756; }
-    .logo .buttoms .shouye {
+    .logo .buttoms .shoebag {
       border-bottom: 3px solid #CC9756; }
-      .logo .buttoms .shouye a {
+      .logo .buttoms .shoebag a {
         color: #CC9756; }
+    .logo .buttoms .shouye a {
+      color: #000; }
 
 /*客服服务*/
 .serve {

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*购物车*/
+.goodsCat {
+  width: 1090px;
+  margin: auto;
+  overflow: hidden; }
+  .goodsCat .catT {
+    width: 1090px;
+    background-color: #f5f5f5;
+    padding-left: 25px;
+    padding: 15px;
+    border: 1px solid #eee; }
+    .goodsCat .catT .checkbox1 {
+      margin: auto;
+      margin-right: 15px; }
+    .goodsCat .catT .a0 {
+      margin-right: 120px;
+      font-size: 13px;
+      color: #333333; }
+    .goodsCat .catT .a1 {
+      font-size: 13px;
+      color: #333333;
+      padding-right: 326px; }
+    .goodsCat .catT .a2 {
+      font-size: 13px;
+      color: #333333;
+      padding-right: 146px; }
+    .goodsCat .catT .a3 {
+      font-size: 13px;
+      color: #333333;
+      padding-right: 160px; }
+    .goodsCat .catT .a4 {
+      font-size: 13px;
+      color: #333333;
+      padding-right: 64px; }
+    .goodsCat .catT .a5 {
+      font-size: 13px;
+      color: #333333; }
+  .goodsCat .catC {
+    width: 1090px;
+    margin-top: 30px;
+    overflow: hidden; }
+    .goodsCat .catC li {
+      padding: 10px;
+      height: 120px;
+      border: 1px solid #ccc;
+      margin-bottom: 30px; }
+      .goodsCat .catC li div {
+        float: left;
+        padding-top: 44px; }
+        .goodsCat .catC li div input {
+          padding-top: 70px;
+          margin: auto;
+          margin-right: 15px;
+          float: left; }
+      .goodsCat .catC li img {
+        display: block;
+        margin-right: 30px;
+        width: 98px;
+        height: 98px;
+        float: left; }
+      .goodsCat .catC li .box {
+        padding-top: 32px; }
+        .goodsCat .catC li .box h3 {
+          font-size: 14px;
+          max-width: 248px;
+          color: #333333;
+          float: left;
+          margin-right: 158px; }
+        .goodsCat .catC li .box p {
+          font-size: 14px;
+          color: #333333;
+          float: left;
+          margin-right: 158px; }
+        .goodsCat .catC li .box span {
+          font-size: 14px;
+          color: #333333;
+          float: left;
+          display: block;
+          margin-right: 170px; }
+        .goodsCat .catC li .box i {
+          font-size: 14px;
+          color: #d4282d;
+          float: left;
+          display: block;
+          margin-right: 58px; }
+        .goodsCat .catC li .box em {
+          font-size: 14px;
+          color: #666666;
+          float: left;
+          cursor: pointer; }

@@ -53,7 +53,7 @@
           text-align: center;
           padding-top: 20px;
           margin-bottom: 30px; }
-        .goodsList .content .goodsbox .goods a {
+        .goodsList .content .goodsbox .goods span {
           width: 120px;
           height: 30px;
           font-size: 18px;
@@ -66,5 +66,17 @@
           text-align: center;
           margin-bottom: 30px;
           cursor: pointer; }
-          .goodsList .content .goodsbox .goods a:hover {
+          .goodsList .content .goodsbox .goods span:hover {
             background: #b4a050; }
+
+/*logo*/
+/* .logo{
+    .buttoms{
+        .shoebag{
+            border-bottom: 3px solid #CC9756;
+        a{
+          color:#CC9756 ;
+        }
+        }
+    }
+} */

@@ -65,6 +65,7 @@ function init() {
     showImg[i].onmouseover = function (ev) {
       var e = ev || window.event;
       console.log(e.target);
+      console.log(minImg.src);
 
       if (e.target.Classname == 'show1') {
         minImg.setAttribute("src", "./img/detail-min");
