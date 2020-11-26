@@ -7,8 +7,8 @@ function init() {
   var showImg = document.querySelectorAll(".show img");
   var mask = document.querySelector('.mask');
   var maxBox = document.querySelector('.maxbox');
-  var maxImg = document.querySelector('.maxbox img');
-  var detailcon = document.querySelector('.detailcon'); // console.log(minBox,mask,maxBox,maxImg,show,minImg);
+  var maxImg = document.querySelector('.maxbox img'); // var detailcon=document.querySelector('.detailcon')
+  // console.log(minBox,mask,maxBox,maxImg,show,minImg);
   //2.给mask添加移动事件
 
   minBox.onmousemove = function (ev) {
@@ -58,26 +58,25 @@ function init() {
     mask.style.display = "none";
     maxBox.style.display = "none";
   }; //5.给需要展示的图片添加事件委托
-  // console.log(minImg);
+  // console.log(showImg);
+  // console.log(minImg.src);
 
 
   for (var i = 0; i < showImg.length; i++) {
     showImg[i].onmouseover = function (ev) {
-      var e = ev || window.event;
-      console.log(e.target);
-      console.log(minImg.src);
+      var e = ev || window.event; //  console.log(e.target);
+      //  console.log(minImg.src);
 
-      if (e.target.Classname == 'show1') {
-        minImg.setAttribute("src", "./img/detail-min");
-        console.log(minImg.src);
-      } else if (e.target.Classname == 'show2') {
-        minImg.setAttribute("src", "./img/detai2-1");
-      } else if (e.target.Classname == 'show3') {
-        minImg.style.src = './img/detail3-1.webp';
-      } else if (e.target.Classname == 'show4') {
-        minImg.style.src = './img/detail4-1.webp';
-      } else if (e.target.Classname == 'show4') {
-        minImg.style.src = './img/detail5-1.webp';
+      if (e.target.className == 'show1') {
+        minImg.src = 'img/detail-min.webp';
+      } else if (e.target.className == 'show2') {
+        minImg.src = 'img/detail2-1.webp';
+      } else if (e.target.className == 'show3') {
+        minImg.src = 'img/detail3-1.webp';
+      } else if (e.target.className == 'show4') {
+        minImg.src = 'img/detail4-1.webp';
+      } else if (e.target.className == 'show5') {
+        minImg.src = 'img/detail5-1.webp';
       }
     };
   }
