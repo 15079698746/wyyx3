@@ -28,11 +28,24 @@ $(function () {
                 <em code="${obj.code}">删除</em>
               </li>
               ` */
-              domStr += "\n                    <li>\n                        <div>\n                        <input type=\"checkbox\" checked>\n                        </div>\n                        <img src=\"".concat(obj.imgurl, "\" alt=\"\">\n                        <div class=\"box\">\n                            <h3>").concat(obj.title, "</h3>\n                            <p>").concat(obj.price, "</p>\n                            <span>").concat(item.num, "</span>\n                            <i>\uFFE5188</i>\n                            <em code=\"").concat(obj.code, "\">\u5220\u9664</em>\n                        </div>\n                    </li>\n                    ");
+              domStr += "\n                    <li>\n                        <div>\n                        <input type=\"checkbox\" checked>\n                        </div>\n                        <img src=\"".concat(obj.imgurl, "\" alt=\"\">\n                        <div class=\"box\">\n                            <h3>").concat(obj.title, "</h3>\n                            <p class=\"p1\">").concat(obj.price, "</p>\n                            <span>").concat(item.num, "</span>\n                            <i></i>\n                            <em code=\"").concat(obj.code, "\">\u5220\u9664</em>\n                        </div>\n                    </li>\n                    ");
             }
           });
-        });
-        $('.catC').html(domStr);
+        }); //把节点动态添加到商品购物车
+
+        $('.catC').html(domStr); //动态计算 小计价格
+
+        var p = $('.box .p1');
+        var span = $('.box span');
+        var subtotal = $('.box i');
+
+        for (var i = 0; i < p.length; i++) {
+          var strprice = $(p[i]).text().substring(1);
+          var strnum = $(span[i]).text().substring(0);
+          $(subtotal[i]).text('￥' + strprice * strnum); // console.log(strprice);
+          // console.log(strnum);
+          // console.log(subtotal[i]);
+        }
       }
     }); // 商品移出购物车
 
@@ -57,7 +70,7 @@ $(function () {
         // 清除本地数据
         localStorage.removeItem('goods');
         var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！</li>';
-        $('.list').html(nodata);
+        $('.catC').html(nodata);
       }
 
       alert('商品移出购物车成功！');

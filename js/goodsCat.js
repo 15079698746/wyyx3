@@ -32,17 +32,32 @@ $(function(){
                         <img src="${obj.imgurl}" alt="">
                         <div class="box">
                             <h3>${obj.title}</h3>
-                            <p>${obj.price}</p>
+                            <p class="p1">${obj.price}</p>
                             <span>${item.num}</span>
-                            <i>￥188</i>
+                            <i></i>
                             <em code="${obj.code}">删除</em>
                         </div>
                     </li>
                     `
                 }
+               
               })
             })
+            //把节点动态添加到商品购物车
             $('.catC').html(domStr)
+            //动态计算 小计价格
+            var p=$('.box .p1')
+            var span=$('.box span')
+            var subtotal=$('.box i')
+            for(var i=0;i<p.length;i++){
+                var strprice=$(p[i]).text().substring(1)
+                var  strnum=$(span[i]).text().substring(0)
+                $(subtotal[i]).text('￥'+ strprice*strnum)
+                // console.log(strprice);
+                // console.log(strnum);
+                // console.log(subtotal[i]);
+            }
+           
           }
         })
     
@@ -69,7 +84,7 @@ $(function(){
             // 清除本地数据
             localStorage.removeItem('goods')
             var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！</li>'
-            $('.list').html(nodata)
+            $('.catC').html(nodata)
           }
     
           alert('商品移出购物车成功！')
