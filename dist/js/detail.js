@@ -1,5 +1,7 @@
 "use strict";
 
+init();
+
 function init() {
   //1.获取需要操作元素
   var minBox = document.querySelector('.minbox');
@@ -16,8 +18,9 @@ function init() {
     //2.1计算maskd定位坐标 ,offset(minBox).left是封装得方法
 
     var maskLeft = e.clientX - offset(minBox).left - mask.clientWidth / 2;
-    var maskTop = e.clientY - offset(minBox).top - mask.clientHeight / 2; //  console.log(offset(minBox).left);
-    //2.2限制mask的移动范围
+    var maskTop = e.clientY - offset(minBox).top - mask.clientHeight / 2;
+    console.log(offset(minBox).left);
+    console.log(offset(minBox).top); //2.2限制mask的移动范围
 
     if (maskLeft < 0) {
       maskLeft = 0;
@@ -69,14 +72,19 @@ function init() {
 
       if (e.target.className == 'show1') {
         minImg.src = 'img/detail-min.webp';
+        maxImg.src = 'img/detail-max.webp';
       } else if (e.target.className == 'show2') {
         minImg.src = 'img/detail2-1.webp';
+        maxImg.src = 'img/detail2-1.webp';
       } else if (e.target.className == 'show3') {
         minImg.src = 'img/detail3-1.webp';
+        maxImg.src = 'img/detail3-1.webp';
       } else if (e.target.className == 'show4') {
         minImg.src = 'img/detail4-1.webp';
+        maxImg.src = 'img/detail4-1.webp';
       } else if (e.target.className == 'show5') {
         minImg.src = 'img/detail5-1.webp';
+        maxImg.src = 'img/detail5-1.webp';
       }
     };
   }
@@ -102,5 +110,3 @@ function init() {
    } */
 
 }
-
-init();
